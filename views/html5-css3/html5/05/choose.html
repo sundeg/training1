@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        a{
+            font-size: 29px;
+            text-decoration: none;
+            padding:15px;
+        }
+        a:link {color: #FF0000}     /* 未访问的链接 */
+        a:visited {color: #00FF00}  /* 已访问的链接 */
+        a:hover {color: #FF00FF}    /* 当有鼠标悬停在链接上 */
+        a:active {color: #0000FF}   /* 被选择的链接 */
+        a:focus {color: #00FF00}
+
+        h1{
+            color: #6dacf4;
+        }
+        h1:hover{
+            background-color: #333333;
+        }
+        h1:active{
+            color: #0000FF;
+        }
+        h1:visited{color: #f08f7e;
+
+        }
+        .shuru{
+            width: 200px;
+            height: 70px;
+        }
+        .shuru:focus{
+font-size: 60px;
+            color: #00FF00;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <a>hello</a>
+    <h1> world</h1>
+    <form  class="shuru">
+    First name: <input type="text" name="fname" />
+
+    <input type="submit" value="Submit" />
+    </form>
+</div>
+
+</body>
+</html>
