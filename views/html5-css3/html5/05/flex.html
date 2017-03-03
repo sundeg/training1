@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box-0 {
+
+            height: 400px;
+            display: flex;
+            border: 1px solid #123456;
+
+            text-align: center;
+        }
+
+        .box {
+            width: 250px;
+            height: 400px;
+            display: flex;
+            border: 1px solid #123456;
+
+            text-align: center;
+        }
+
+        .item {
+            width: 100px;
+            height: 70px;
+            line-height: 70px;
+            margin: 2px;
+            border: 1px solid #123456;
+            flex-shrink: 1;
+            align-self: flex-end;
+            background-color: #6dacf4;
+        }
+
+        .item1 {
+            width: 200px;
+            height: 70px;
+            line-height: 70px;
+            margin: 2px;
+            border: 1px solid #123456;
+            flex-shrink: 2;
+            background-color: #9c9999;
+        }
+
+        .box-1 {
+            width: 400px;
+            height: 400px;
+            display: flex;
+            border: 1px solid #123456;
+
+            text-align: center;
+        }
+
+        .item2 {
+            width: 100px;
+            height: 70px;
+            line-height: 70px;
+            margin: 2px;
+            border: 1px solid #123456;
+            background-color: #6dacf4;
+            align-self: center;
+        }
+
+        .item3 {
+            width: 200px;
+            height: 70px;
+            line-height: 70px;
+            margin: 2px;
+            border: 1px solid #123456;
+            background-color: #9c9999;
+        }
+
+        .box-2 {
+            width: 400px;
+            height: 400px;
+            display: flex;
+            border: 1px solid #123456;
+
+            text-align: center;
+        }
+
+        .item4 {
+            width: 100px;
+            height: 70px;
+            line-height: 70px;
+            margin: 2px;
+            border: 1px solid #123456;
+            flex-flow: 1;
+            font-size:30px;
+            background-color: #6dacf4;
+            align-self: baseline;
+        }
+
+        .item5 {
+            width: 200px;
+            height: 70px;
+            line-height: 70px;
+            margin: 2px;
+            border: 1px solid #123456;
+            flex-grow: 2;
+            background-color: #9c9999;
+            align-self: baseline;
+        }
+
+    </style>
+</head>
+<body>
+<div class="box-0">
+    <div class="box">
+        <div class="item ">flex-end</div>
+        <div class="item1 "> 2</div>
+    </div>
+    <div class="box-1">
+        <div class="item2 ">center</div>
+        <div class="item3 "> 2</div>
+    </div>
+    <div class="box-2">
+        <div class="item4 "> baseline</div>
+        <div class="item5 "> 2</div>
+    </div>
+
+</div>
+</body>
+</html>
