@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .b-sha{
+             width: 800px;
+             height: 200px;
+             line-height: 100px;
+             margin: auto;
+             font-size: 30px;
+             background-color: #1883d7;
+             text-align: center;
+         }
+        .box{
+            width: 800px;
+            height: 200px;
+            line-height: 100px;
+            margin: auto;
+            font-size: 30px;
+            background-color: #08d17f;
+            text-align: center;
+            outline: 10px solid #00b38a;
+            border: 10px solid #00FF00;
+            box-shadow: 0 0 0 20px brown;
+            margin-bottom: 50px;
+        }
+        .box1{
+            width:1300px;
+            height: 200px;
+            margin: auto;
+            border: 2px solid #1f3f55;
+            display: flex;
+            flex-wrap: wrap;
+
+
+        }
+        .box2{
+            width:600px;
+            height: 400px;
+            margin: auto;
+            padding: 50px;
+            border: 2px solid #1f3f55;
+            background:url("/training1/public/images/heart1.jpg") ;
+            background-size: 50px 50px;
+            background-repeat: no-repeat;
+            background-position:top left ;
+            background-origin: content-box;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+       .item1{
+           width: 150px;
+           height: 100px;
+           background-color: burlywood;
+           border-radius: 50% 50%;
+       }
+        .item2{
+            width: 150px;
+            height: 150px;
+            background-color: burlywood;
+            border-radius: 70% 0;
+        }
+
+        .item3{
+            width: 200px;
+            height: 200px;
+            background-color: burlywood;
+            border-radius: 0 0 200px 0;
+        }
+        .item4{
+            width: 150px;
+            height: 200px;
+            background-color: burlywood;
+            border-radius: 0 0 100px 100px;
+        }
+        .sha{
+            margin: auto;
+            width: 500px;
+            height: 100px;
+            line-height: 100px;
+            font-size: 30px;
+            color: #1f3f55;
+            background-color: #8bc453;
+            text-align: center;
+            box-shadow: 5px 5px 4px #423677;
+        }
+        h2{
+            text-shadow: 5px -5px 8px #333333;
+        }
+        .post{
+            width: 750px;
+            height: 400px;
+            background-color: white;
+            margin: auto;
+           box-shadow: 0 0 0 20px #2b2b2b;
+            outline:20px dashed #6dacf4 ;
+            margin-bottom: 50px;
+            background: url("/training1/public/images/xinf.png") no-repeat;
+            background-size: 827px 440px;
+        }
+        .liner{
+            width: 400px;
+            height: 200px;
+            background:linear-gradient(#1883d7 50%,#444444 50%);
+            background-size: 400px 40px;
+            margin: auto;
+        }
+        .box3{
+            width:1000px;
+            height: 100px;
+            margin: auto;
+            background-color: #0aa6cb;
+            display: flex;
+            flex-wrap: wrap;
+        }
+.itemb3{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+    transform: translate(66px);
+    display: inline-block;
+}
+        .itemb3::after{
+            content: '';
+            position: absolute;
+            top: 0;right: 0;bottom: 0;left: 0;
+            z-index: -1;
+            background: #58a;
+            transform: skew(30deg);
+        }
+    </style>
+</head>
+<body>
+<div class="b-sha">
+<div class="sha">
+<h2>hello world!</h2></div></div>
+<div class="box"></div>
+<div class="box1">
+    <div class="item1"></div>
+    <div class="item2"></div>
+    <div class="item3"></div>
+    <div class="item4"></div>
+</div>
+<div class="box2"></div>
+<div class="post">
+</div>
+<div class="liner"></div>
+<div class="box3">
+    <div class="itemb3"> 首页</div>
+    <div class="itemb3">请问让他</div>
+    <div class="itemb3">去啊这些</div>
+    <div class="itemb3">我的方式</div>
+
+
+</div>
+</body>
+</html>
