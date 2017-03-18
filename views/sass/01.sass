@@ -1,0 +1,25 @@
+$red: red
+$width :20px
+@mixin border-radius($radius:5px)
+  border-radius: $radius
+
+body
+  background-color: $red
+
+  .speaker
+    .name
+      font:
+        weight: bold
+        size: 12px
+      background:
+        color: $red
+        size: 30px
+
+.home
+  width: $width
+
+.content
+  background-color: $red
+  width: 200px
+  height: 200px
+  @include border-radius(20px)

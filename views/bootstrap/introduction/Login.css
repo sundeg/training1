@@ -1,0 +1,38 @@
+* {
+  margin: 0 auto; }
+
+.container-fluid {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+  .container-fluid form {
+    margin-top: 70px; }
+    .container-fluid form .form-group label {
+      width: 100%;
+      position: relative; }
+      .container-fluid form .form-group label .form-control {
+        height: 54px;
+        text-indent: 3em; }
+      .container-fluid form .form-group label i {
+        position: absolute;
+        top: 24%;
+        left: 2%; }
+
+form {
+  margin-top: 70px; }
+  form .form-group label {
+    width: 100%;
+    position: relative; }
+  form .form-group .form-control {
+    height: 54px;
+    text-indent: 3em; }
+  form .form-group i {
+    position: absolute;
+    top: 24%;
+    left: 2%; }
+
+/*# sourceMappingURL=Login.css.map */
